@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    font-family: "roboto", sans-serif;
+    /* border: red 1.5px solid; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 20px 160px;
+}
+
+.header .logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.header ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.header ul a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 80px 160px;
+}
+
+.hero-kiri {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+}
+
+.hero-kiri button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #f9faf8;
+    padding: 5px 20px;
+
+    align-self: flex-start;
+}
+
+.hero-judul {
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-kanan {
+    background-color: #6d747d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+    color: #f9faf8;
+}
+
+.hero-box{
+    padding: 40px;
+}
