@@ -43,6 +43,7 @@ body {
     justify-content: space-between;
     gap: 60px;
     padding: 80px 160px;
+    flex: 1;
 }
 
 .hero-kiri {
@@ -64,7 +65,7 @@ body {
 
 .hero-judul {
     font-size: 48px;
-    font-weight:bolder;
+    font-weight: 900;
     color: #f9faf8;
 }
 
@@ -85,4 +86,43 @@ body {
 
 .hero-box{
     padding: 40px;
+}
+
+.content-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 160px;
+    gap: 40px;
+    flex: 1;
+}
+
+.content-1-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.content-1-body {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.card-img {
+    flex-basis: 100px;
+    flex-shrink: 0;
+    border: #3882f6 2px solid;
+    border-radius: 10px;
 }
